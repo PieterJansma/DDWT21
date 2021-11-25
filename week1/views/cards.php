@@ -1,3 +1,4 @@
+
 <!-- Series count -->
 <div class="card">
     <div class="card-header">
@@ -5,7 +6,7 @@
     </div>
     <div class="card-body">
         <p class="count">Series overview already has</p>
-        <h2>3</h2>
+        <h2><?= $series_count ?></h2>
         <p>series listed</p>
         <a href="/DDWT21/week1/add/" class="btn btn-primary">List yours</a>
     </div>
